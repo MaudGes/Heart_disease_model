@@ -1,9 +1,18 @@
 # Heart_disease_model
 Machine Learning model to identify whether someone has, or is likely to develop a heart disease.
 
-Using a dataset from Kaggle, I created a machine learning model that will be able to find out whether someone has or is likely to develop a heart disease depending on his/her characteristics.
-The dataset comes from the Behavioural Risk Factor Surveillance System, a division of the CDC (Centres for Disease Control and Prevention, (USA). It had already been cleaned and the most important variables had been kept.
-I first performed EDA to have a look at the data and see if I could find any interesting insight right away. I then proceeded to creating the model using Scikit learn and classification.
+Using a dataset from Kaggle, I will create a machine learning model that will be able to find out whether someone has or is likely to develop a heart disease depending on his/her characteristics.
+
+The dataset comes from the Behavioural Risk Factor Surveillance System, a division of the CDC (Centres for Disease Control and Prevention (USA). 
+It has already been cleaned and the most important variables have been kept. The related year is 2015.
+
+I will first perform an EDA to have a look at the data and see if I could find any interesting insight right away.
+Since I would like to be able to use it with other people's data and create an interface in which anyone can enter his/her characteristics and get a result, I will try to narrow down the number of characteristics taken into account to make it easier for people to use it. Anyone will then beable to see whether people with his/her characteristics have reported having heart diseases.
+The EDA wll help me with that, I look into various variables and try to identify which ones have the most impact on the possibility to develop a heart disease or have a heart attack.
+
+The main model will use Scikit-learn and classification, although I will also look into other types of models to see which one gives the best accuracy.
+
+
 
 You can find the list of characteristics below : 
 
