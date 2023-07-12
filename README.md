@@ -7,9 +7,15 @@ The dataset comes from the Behavioural Risk Factor Surveillance System, a divisi
 It has already been cleaned and the most important variables have been kept. The related year is 2015.
 
 I will first perform an EDA to have a look at the data and see if I could find any interesting insight right away.
-Since I would like to be able to use it with other people's data and create an interface in which anyone can enter his/her characteristics and get a result, I will try to narrow down the number of characteristics taken into account to make it easier for people to use it. Anyone will then beable to see whether people with his/her characteristics have reported having heart diseases.
-The EDA wll help me with that, I look into various variables and try to identify which ones have the most impact on the possibility to develop a heart disease or have a heart attack.
+Since I would like to be able to use it with other people's data and create an interface in which anyone can enter his/her characteristics and get a result, I will try to narrow down the number of characteristics taken into account to make it easier for people to use it. Anyone will then be able to see whether people with his/her characteristics have reported having heart diseases.
 
+The EDA wll help me with that, I look into various variables and try to identify which ones have the most impact on the possibility to develop a heart disease or have a heart attack. In cases where the number of points difference between the percentages of people with HDA (Heart Disease or Attack) and people without HDA is inferior to 5, the variable will not be kept (see EDA notebook).
+
+I will perform the EDA in a reusable way to be able to collect the same dataset from later years and importing it in the notebook to get the same analysis for another year. 
+This will be done by using the same cleaning notebook than the one that originally cleaned the data from 2015.
+Then the cleaned output can be imported in my EDA notebook to perform the analyses.
+
+Regarding the Machine Learning model:
 The main model will use Scikit-learn and classification, although I will also look into other types of models to see which one gives the best accuracy.
 
 
