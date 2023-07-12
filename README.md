@@ -8,7 +8,9 @@ It has already been cleaned and the most important variables have been kept. The
 
 I will first perform an EDA to have a look at the data and see if I could find any interesting insight right away.
 Since I would like to be able to use it with other people's data and create an interface in which anyone can enter his/her characteristics and get a result, I will try to narrow down the number of characteristics taken into account to make it easier for people to use it. Anyone will then beable to see whether people with his/her characteristics have reported having heart diseases.
+
 The EDA wll help me with that, I look into various variables and try to identify which ones have the most impact on the possibility to develop a heart disease or have a heart attack. In cases where the number of points difference between the percentages of people with HDA and people without HDA in inferior to 5, the variable will not be kept (see notebook).
+
 I will perform EDA in a "reusable way" : to be able to collect the same dataset from later years and importing it in the notebook to get the same analysis for another year.
 
 Regarding the Machine Learning model:
