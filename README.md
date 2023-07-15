@@ -37,7 +37,7 @@ Have you EVER been told by a doctor, nurse or other health professional that you
 Cholesterol check within past five years.
 
   •	Smoking
-Have you smoked at least 100 cigarettes in your entire life? [Note: 5 packs = 100 cigarettes].
+Have you smoked at least 100 cigarettes in your entire life? (Note: 5 packs = 100 cigarettes).
 
   •	Other Chronic Health Conditions
 (Ever told) you had a stroke.
@@ -55,10 +55,10 @@ Do you have any kind of health care coverage, including health insurance, prepai
 Was there a time in the past 12 months when you needed to see a doctor but could not because of cost? 
 
   •	Health General and Mental Health
-Would you say that in general your health is: --> GENHLTH
-Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good? --> MENTHLTH
-Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good? --> PHYSHLTH
-Do you have serious difficulty walking or climbing stairs? --> DIFFWALK
+How would you say that in general your health is ?
+Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good?
+Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good?
+Do you have serious difficulty walking or climbing stairs?
 
   •	Demographics
 Indicate sex of respondent. 
