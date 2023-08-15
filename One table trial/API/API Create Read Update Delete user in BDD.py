@@ -85,6 +85,7 @@ class CreatePerson(Resource):
         except Exception as e:
             return {'error': str(e)}
         
+        '''Insérer ici le fait d'envoyer aussi les valeurs au modèle ?'''
 
 class GetPerson(Resource):
     def get(self, user_id):
