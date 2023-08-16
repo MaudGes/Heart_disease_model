@@ -1,13 +1,16 @@
 # Heart_disease_model
 Machine Learning model to identify whether someone has, or is likely to develop a heart disease.
 
-Using a dataset from Kaggle, I will create a machine learning model that will be able to find out whether someone has or is likely to develop a heart disease depending on his/her characteristics.
+Using a dataset from Kaggle, I will create a machine learning model that will be able to find out whether someone has or is likely to develop a heart disease depending on his/her characteristics. 
+
+The final goal being to develop an interface in which anyone can inter their characteristics and get a result.
 
 The dataset comes from the Behavioural Risk Factor Surveillance System, a division of the CDC (Centres for Disease Control and Prevention (USA). 
 It has already been cleaned and the most important variables have been kept. The related year is 2015.
 
 I will first perform an EDA to have a look at the data and see if I could find any interesting insight right away. The EDA will be done in a reusable way to be able to collect the same dataset from later years and importing it in the notebook to get the same analysis for another year. 
-This will be done by using the same cleaning notebook than the one that originally cleaned the data from 2015.
+
+The data cleaning for laters years can be done by using the same cleaning notebook than the one that cleaned the data from 2015.
 Then the cleaned output can be imported in my EDA notebook to perform the analyses.
 
 Regarding the Machine Learning model:
