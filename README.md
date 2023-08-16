@@ -3,7 +3,7 @@ Machine Learning model to identify whether someone has, or is likely to develop 
 
 Using a dataset from Kaggle, I will create a machine learning model that will be able to find out whether someone has or is likely to develop a heart disease depending on his/her characteristics. 
 
-The final goal being to develop an interface in which anyone can inter their characteristics and get a result.
+The final goal being to develop an interface in which anyone can enter their characteristics and get a result.
 
 The dataset comes from the Behavioural Risk Factor Surveillance System, a division of the CDC (Centres for Disease Control and Prevention (USA). 
 It has already been cleaned and the most important variables have been kept. The related year is 2015.
