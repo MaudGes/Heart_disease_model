@@ -40,10 +40,10 @@ class HeartDiseasePredictor:
                 user_data['age'], user_data['education'], user_data['income']
             ]
     
-            # Prédiction
+            # Prediction
             prediction = self.model.predict([features])
     
-            # Mise à jour de la base de données
+            # Database update
             cursor.execute("UPDATE heart_disease_table SET hda = %s WHERE id = %s", (prediction[0], user_id))
             conn.commit()
         
